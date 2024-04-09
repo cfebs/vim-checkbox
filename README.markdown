@@ -20,6 +20,9 @@ using pathogen, just clone this repository in `~/.vim/bundle`.
 
 Usage
 -----
+Add a map binding to your vimrc:
+
+    map <silent> <leader>tt :call checkbox#ToggleCB()<cr>
 
 Press `<leader>tt` to toggle the (first) checkbox on the current
 line, if any. That means, `[ ]` will be replaced with `[x]` and `[x]` with
