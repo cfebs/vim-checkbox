@@ -82,6 +82,7 @@ endf
 
 command! ToggleCB call checkbox#ToggleCB()
 
-map <silent> <leader>tt :call checkbox#ToggleCB()<cr>
+" Do not bind by default
+" map <silent> <leader>tt :call checkbox#ToggleCB()<cr>
 
 let g:loaded_checkbox = 1
